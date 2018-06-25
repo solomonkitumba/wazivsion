@@ -1,0 +1,60 @@
+name = Fiora Theme
+description = Responsive Drupal 7 Theme by Arrowhitech JSC. 
+core = 7.x
+engine = phptemplate
+version = 1.0
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/jollyicons.css
+stylesheets[all][] = css/et-icons.css
+stylesheets[all][] = css/animate.css
+stylesheets[all][] = css/owl-carousel.css
+stylesheets[all][] = style.css
+stylesheets[all][] = css/custom/custom.css
+
+stylesheets[all][] = css/prettyPhoto.css
+
+stylesheets[all][] = css/extralayers.css
+stylesheets[all][] = rs-plugin/css/settings.css
+
+scripts[] = js/custom/googlemaps.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/retina.js
+scripts[] = js/wow.js
+scripts[] = js/jquery.stellar.js
+scripts[] = js/jquery.prettyPhoto.js
+scripts[] = js/script.js
+
+scripts[] = js/owl.carousel.js
+scripts[] = js/smoothscroll.js
+scripts[] = js/jquery.jigowatt.js
+scripts[] = js/onepagescripts.js
+scripts[] = js/jquery.isotope.min.js
+scripts[] = js/4col-portfolio.js
+scripts[] = js/custom/custom.js
+
+regions[menu] = Menu
+regions[header_right] = Header Right
+regions[breadcrumbs] = Breadcrumbs
+regions[content] = Content
+regions[newsletter] = Newsletter
+regions[blog_sidebar] = Blog Sidebar
+regions[shop_sidebar] = Shop Sidebar
+regions[bottom_content] = Bottom Content
+regions[after_content] = After Content
+regions[footer] = Footer
+
+; Define theme setting defaults.
+settings[breadcrumbs] = 1
+settings[use_preloader] = 1
+settings[contactmap_title] = OUR USA OFFICE
+settings[contactmap_website] = #
+settings[contactmap_address] = NEW YORK CITY 2045 / 65
+settings[contactmap_phone] = +90 555 666 77 88
+settings[contactmap_lat] = -15.501578
+settings[contactmap_long] = 15.160508
+settings[contactmap_zoom] = 5
+settings[contactmap_styles] = 1
+settings[contactmap_hue] = #404347
+settings[contactmap_saturation] = -90
+settings[contactmap_gamma] = 0.15
